@@ -44,7 +44,7 @@ Product.init(
     }
   },
   {
-    sequelize,
+    sequelize, //pass the connection instance
     timestamps: false,
     freezeTableName: true,
     underscored: true,
