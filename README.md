@@ -39,4 +39,4 @@ THEN I am able to successfully create, update, and delete data in my database
 
 
 ## Acknowledgements
-
+Guidance provided U of M Coding Bootcamp TA (Steven Castro-Mercado)
