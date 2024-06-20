@@ -21,6 +21,7 @@ router.get('/', async (req, res) => {
         { model: Tag},
         // {model : ProductTag}
       ],
+      order: [['id', 'ASC']],
     });
     res.status(200).json(productData);
   } catch(err) {
