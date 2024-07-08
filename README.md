@@ -5,7 +5,7 @@ Boot Camp Module 13 Challenge
 This is the week 13 Module Challenge for the U of M Coding Bootcamp
 
 #  Object-Relational Mapping: E-Commerce Back End
-This challenge was to build the back end for an e-commerce site by modifying starter code. Configure a working Express.js API to use Sequelize to interact with a PostgreSQL database.
+The challenge was to build the back end for an e-commerce site by modifying starter code and configure a working Express.js API to use Sequelize to interact with a PostgreSQL database.
 
 ## User Story
 ```md
@@ -29,14 +29,36 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
-
-## Screenshots
+## Application Screenshot
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
+## Installation Instructions
+Prerequisites
+- Node.js
+- npm
+- PostgreSQL
 
-## Usage Information
+1. Clone the repository
+    ```bash
+   https://github.com/alarrabee/orm-e-commerce-back-end.git
+   ```
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+3. Create database in postgreSQL
+4. Run seeds
+   ```bash
+   npm run seed
+   ```
+5. Invoke Application
+   ```bash
+   npm start
+   ```
+
+## Demo
+[View a video demonstration of the application using Insomnia]
 
 
-## Acknowledgements
 Guidance provided U of M Coding Bootcamp TA (Steven Castro-Mercado)
