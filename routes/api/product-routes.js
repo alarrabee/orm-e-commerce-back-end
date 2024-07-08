@@ -18,7 +18,7 @@ router.get('/', async (req, res) => {
         //   as: 'product_ProductTag',
         //   attributes: ['tag_name']
         // }
-        { model: Tag},
+        { model: Tag, through: ProductTag},
         // {model : ProductTag}
       ],
       order: [['id', 'ASC']],
@@ -36,7 +36,7 @@ router.get('/:id', async (req, res) => {
   // be sure to include its associated Category and Tag data
   try {
     const productData = await Product.findByPk(req.params.id, {
-      include: [{ model: Category }, { model: Tag }, 
+      include: [{ model: Category }, { model: Tag, through: ProductTag }, 
         // { model: ProductTag }
       ],
     });
@@ -59,6 +59,7 @@ router.post('/', (req, res) => {
       product_name: "Basketball",
       price: 200.00,
       stock: 3,
+      category_id: 1,
       tagIds: [1, 2, 3, 4]
     }
   */
