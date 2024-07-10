@@ -31,7 +31,8 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Application Screenshot
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://github.com/alarrabee/orm-e-commerce-back-end/assets/149320486/ae03af88-c139-44f7-9ce0-f2a0c8aea845)
+
 
 ## Installation Instructions
 Prerequisites
@@ -58,7 +59,8 @@ Prerequisites
    ```
 
 ## Demo
-[View a video demonstration of the application using Insomnia]
+[View a video demonstration of the application using Insomnia](https://drive.google.com/file/d/1vuB3rO4FHo6sX1uc2JCTEDQFpISY33rw/view?usp=sharing)
 
 
-Guidance provided U of M Coding Bootcamp TA (Steven Castro-Mercado)
+## Acknowledgments
+Guidance provided by edX Web Development Tutor Team (Megan Meyers)
